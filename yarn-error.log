@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add svelte rollup-plugin-svelte rollup
+
+PATH: 
+  /home/daniil/projects/svelte-simplebar/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://npm.contentline.ru/svelte: authorization required to access package svelte
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "svelte-simplebar",
+    "version": "1.0.0",
+    "description": "simplebar implementation for Svelte 3",
+    "main": "/src/index.svelte",
+    "repository": "https://github.com/khaninD/svelte-simplebar.git",
+    "author": "Khanin Daniil",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
