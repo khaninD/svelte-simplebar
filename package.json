@@ -1,0 +1,9 @@
+{
+  "name": "svelte-simplebar",
+  "version": "1.0.0",
+  "description": "simplebar implementation for Svelte 3",
+  "main": "index.js",
+  "repository": "https://github.com/khaninD/svelte-simplebar.git",
+  "author": "Khanin Daniil",
+  "license": "MIT"
+}
