@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "rollup --config ./rollup.config.js --format iife",
-    "buildExample": "rollup --config ./rollup.config.js --format iife --input ./example/main.js"
+    "buildExample": "rollup --config ./rollup.config.js --format iife --input ./example/main.js",
+    "format": "prettier --write --plugin-search-dir=. ./**/*.svelte"
   },
   "svelte": "src/MyComponent.svelte",
   "dependencies": {
@@ -21,6 +22,7 @@
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
     "precss": "^4.0.0",
+    "prettier-plugin-svelte": "^0.7.0",
     "rollup": "^1.31.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -29,5 +31,19 @@
     "rollup-plugin-svelte": "^5.1.1",
     "simplebar": "^5.1.0",
     "svelte": "^3.19.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,svelte,html,css,scss}": [
+      "yarn run format",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
   }
 }
