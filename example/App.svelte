@@ -12,7 +12,7 @@
 </script>
 
 <div class="container">
-  <SvelteSimplebar {data}>
+  <SvelteSimplebar>
     <ul class="list">
       {#each data as { text }}
         <li class="list-item">{text}</li>
