@@ -43,6 +43,7 @@
     padding: 0;
     margin: 0;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
   }
 
   .simplebar-content-wrapper {

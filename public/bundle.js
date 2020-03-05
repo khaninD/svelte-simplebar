@@ -6097,8 +6097,8 @@
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-13ahso4-style";
-    	style.textContent = "[data-simplebar]{position:relative;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;align-content:flex-start;align-items:flex-start}.simplebar-wrapper.svelte-13ahso4.svelte-13ahso4{overflow:hidden;width:inherit;height:inherit;max-width:inherit;max-height:inherit}.simplebar-mask.svelte-13ahso4.svelte-13ahso4{direction:inherit;position:absolute;overflow:hidden;padding:0;margin:0;left:0;top:0;bottom:0;right:0;width:auto !important;height:auto !important;z-index:0}.simplebar-offset.svelte-13ahso4.svelte-13ahso4{direction:inherit !important;box-sizing:inherit !important;resize:none !important;position:absolute;top:0;left:0;bottom:0;right:0;padding:0;margin:0;-webkit-overflow-scrolling:touch}.simplebar-content-wrapper.svelte-13ahso4.svelte-13ahso4{direction:inherit;box-sizing:border-box !important;position:relative;display:block;height:100%;width:auto;visibility:visible;max-width:100%;max-height:100%;scrollbar-width:none;-ms-overflow-style:none}.simplebar-content-wrapper.svelte-13ahso4.svelte-13ahso4::-webkit-scrollbar{width:0;height:0}.simplebar-content.svelte-13ahso4.svelte-13ahso4:before,.simplebar-content.svelte-13ahso4.svelte-13ahso4:after{content:\" \";display:table}.simplebar-placeholder.svelte-13ahso4.svelte-13ahso4{max-height:100%;max-width:100%;width:100%;pointer-events:none}.simplebar-height-auto-observer-wrapper.svelte-13ahso4.svelte-13ahso4{box-sizing:inherit !important;height:100%;width:100%;max-width:1px;position:relative;float:left;max-height:1px;overflow:hidden;z-index:-1;padding:0;margin:0;pointer-events:none;flex-grow:inherit;flex-shrink:0;flex-basis:0}.simplebar-height-auto-observer.svelte-13ahso4.svelte-13ahso4{box-sizing:inherit;display:block;opacity:0;position:absolute;top:0;left:0;height:1000%;width:1000%;min-height:1px;min-width:1px;overflow:hidden;pointer-events:none;z-index:-1}.simplebar-track.svelte-13ahso4.svelte-13ahso4{z-index:1;position:absolute;right:0;bottom:0;pointer-events:none;overflow:hidden}.simplebar-scrollbar.svelte-13ahso4.svelte-13ahso4{position:absolute;left:0;right:0;min-height:10px}.simplebar-scrollbar.svelte-13ahso4.svelte-13ahso4:before{position:absolute;content:\"\";background:black;border-radius:7px;left:2px;right:2px;opacity:0;transition:opacity 0.2s linear}.simplebar-track .simplebar-scrollbar.simplebar-visible:before{opacity:0.5;transition:opacity 0s linear}.simplebar-track.simplebar-vertical.svelte-13ahso4.svelte-13ahso4{top:0;width:11px}.simplebar-track.simplebar-vertical.svelte-13ahso4 .simplebar-scrollbar.svelte-13ahso4:before{top:2px;bottom:2px}.simplebar-track.simplebar-horizontal.svelte-13ahso4.svelte-13ahso4{left:0;height:11px}.simplebar-track.simplebar-horizontal.svelte-13ahso4 .simplebar-scrollbar.svelte-13ahso4:before{height:100%;left:2px;right:2px}.simplebar-track.simplebar-horizontal.svelte-13ahso4 .simplebar-scrollbar.svelte-13ahso4{right:auto;left:0;top:2px;height:7px;min-height:0;min-width:10px;width:auto}";
+    	style.id = "svelte-1vu9bee-style";
+    	style.textContent = "[data-simplebar]{position:relative;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;align-content:flex-start;align-items:flex-start}.simplebar-wrapper.svelte-1vu9bee.svelte-1vu9bee{overflow:hidden;width:inherit;height:inherit;max-width:inherit;max-height:inherit}.simplebar-mask.svelte-1vu9bee.svelte-1vu9bee{direction:inherit;position:absolute;overflow:hidden;padding:0;margin:0;left:0;top:0;bottom:0;right:0;width:auto !important;height:auto !important;z-index:0}.simplebar-offset.svelte-1vu9bee.svelte-1vu9bee{direction:inherit !important;box-sizing:inherit !important;resize:none !important;position:absolute;top:0;left:0;bottom:0;right:0;padding:0;margin:0;-webkit-overflow-scrolling:touch;width:100%}.simplebar-content-wrapper.svelte-1vu9bee.svelte-1vu9bee{direction:inherit;box-sizing:border-box !important;position:relative;display:block;height:100%;width:auto;visibility:visible;max-width:100%;max-height:100%;scrollbar-width:none;-ms-overflow-style:none}.simplebar-content-wrapper.svelte-1vu9bee.svelte-1vu9bee::-webkit-scrollbar{width:0;height:0}.simplebar-content.svelte-1vu9bee.svelte-1vu9bee:before,.simplebar-content.svelte-1vu9bee.svelte-1vu9bee:after{content:\" \";display:table}.simplebar-placeholder.svelte-1vu9bee.svelte-1vu9bee{max-height:100%;max-width:100%;width:100%;pointer-events:none}.simplebar-height-auto-observer-wrapper.svelte-1vu9bee.svelte-1vu9bee{box-sizing:inherit !important;height:100%;width:100%;max-width:1px;position:relative;float:left;max-height:1px;overflow:hidden;z-index:-1;padding:0;margin:0;pointer-events:none;flex-grow:inherit;flex-shrink:0;flex-basis:0}.simplebar-height-auto-observer.svelte-1vu9bee.svelte-1vu9bee{box-sizing:inherit;display:block;opacity:0;position:absolute;top:0;left:0;height:1000%;width:1000%;min-height:1px;min-width:1px;overflow:hidden;pointer-events:none;z-index:-1}.simplebar-track.svelte-1vu9bee.svelte-1vu9bee{z-index:1;position:absolute;right:0;bottom:0;pointer-events:none;overflow:hidden}.simplebar-scrollbar.svelte-1vu9bee.svelte-1vu9bee{position:absolute;left:0;right:0;min-height:10px}.simplebar-scrollbar.svelte-1vu9bee.svelte-1vu9bee:before{position:absolute;content:\"\";background:black;border-radius:7px;left:2px;right:2px;opacity:0;transition:opacity 0.2s linear}.simplebar-track .simplebar-scrollbar.simplebar-visible:before{opacity:0.5;transition:opacity 0s linear}.simplebar-track.simplebar-vertical.svelte-1vu9bee.svelte-1vu9bee{top:0;width:11px}.simplebar-track.simplebar-vertical.svelte-1vu9bee .simplebar-scrollbar.svelte-1vu9bee:before{top:2px;bottom:2px}.simplebar-track.simplebar-horizontal.svelte-1vu9bee.svelte-1vu9bee{left:0;height:11px}.simplebar-track.simplebar-horizontal.svelte-1vu9bee .simplebar-scrollbar.svelte-1vu9bee:before{height:100%;left:2px;right:2px}.simplebar-track.simplebar-horizontal.svelte-1vu9bee .simplebar-scrollbar.svelte-1vu9bee{right:auto;left:0;top:2px;height:7px;min-height:0;min-width:10px;width:auto}";
     	append(document.head, style);
     }
 
@@ -6190,18 +6190,18 @@
     			this.h();
     		},
     		h() {
-    			attr(div0, "class", "simplebar-height-auto-observer svelte-13ahso4");
-    			attr(div1, "class", "simplebar-height-auto-observer-wrapper svelte-13ahso4");
-    			attr(div2, "class", "simplebar-content svelte-13ahso4");
-    			attr(div3, "class", "simplebar-content-wrapper svelte-13ahso4");
-    			attr(div4, "class", "simplebar-offset svelte-13ahso4");
-    			attr(div5, "class", "simplebar-mask svelte-13ahso4");
-    			attr(div6, "class", "simplebar-placeholder svelte-13ahso4");
-    			attr(div7, "class", "simplebar-wrapper svelte-13ahso4");
-    			attr(div8, "class", "simplebar-scrollbar svelte-13ahso4");
-    			attr(div9, "class", "simplebar-track simplebar-horizontal svelte-13ahso4");
-    			attr(div10, "class", "simplebar-scrollbar svelte-13ahso4");
-    			attr(div11, "class", "simplebar-track simplebar-vertical svelte-13ahso4");
+    			attr(div0, "class", "simplebar-height-auto-observer svelte-1vu9bee");
+    			attr(div1, "class", "simplebar-height-auto-observer-wrapper svelte-1vu9bee");
+    			attr(div2, "class", "simplebar-content svelte-1vu9bee");
+    			attr(div3, "class", "simplebar-content-wrapper svelte-1vu9bee");
+    			attr(div4, "class", "simplebar-offset svelte-1vu9bee");
+    			attr(div5, "class", "simplebar-mask svelte-1vu9bee");
+    			attr(div6, "class", "simplebar-placeholder svelte-1vu9bee");
+    			attr(div7, "class", "simplebar-wrapper svelte-1vu9bee");
+    			attr(div8, "class", "simplebar-scrollbar svelte-1vu9bee");
+    			attr(div9, "class", "simplebar-track simplebar-horizontal svelte-1vu9bee");
+    			attr(div10, "class", "simplebar-scrollbar svelte-1vu9bee");
+    			attr(div11, "class", "simplebar-track simplebar-vertical svelte-1vu9bee");
     			set_style(div12, "height", "100%");
     			set_style(div12, "width", "100%");
     		},
@@ -6285,7 +6285,7 @@
     class SvelteSimplebar extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-13ahso4-style")) add_css();
+    		if (!document.getElementById("svelte-1vu9bee-style")) add_css();
     		init(this, options, instance, create_fragment, safe_not_equal, { options: 1, init: 2 });
     	}
     }
@@ -6294,8 +6294,8 @@
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-1239gba-style";
-    	style.textContent = ".container.svelte-1239gba{height:300px}";
+    	style.id = "svelte-1lg74c5-style";
+    	style.textContent = ".container.svelte-1lg74c5{height:300px;width:500px}";
     	append(document.head, style);
     }
 
@@ -6305,7 +6305,7 @@
     	return child_ctx;
     }
 
-    // (21:6) {#each data as { text }}
+    // (22:6) {#each data as { text }}
     function create_each_block(ctx) {
     	let li;
     	let t_value = /*text*/ ctx[3] + "";
@@ -6338,7 +6338,7 @@
     	};
     }
 
-    // (19:2) <SvelteSimplebar init={initBar}>
+    // (20:2) <SvelteSimplebar init={initBar}>
     function create_default_slot(ctx) {
     	let ul;
     	let each_value = /*data*/ ctx[0];
@@ -6436,7 +6436,7 @@
     			this.h();
     		},
     		h() {
-    			attr(div, "class", "container svelte-1239gba");
+    			attr(div, "class", "container svelte-1lg74c5");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -6477,7 +6477,7 @@
     class App extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-1239gba-style")) add_css$1();
+    		if (!document.getElementById("svelte-1lg74c5-style")) add_css$1();
     		init(this, options, instance$1, create_fragment$1, safe_not_equal, {});
     	}
     }
