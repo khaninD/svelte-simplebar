@@ -1,0 +1,1 @@
+export { default as SvelteSimplebar } from './SvelteSimplebar.svelte';
