@@ -215,10 +215,14 @@
 <script>
   import { onMount } from "svelte";
   import SimpleBarJS from "simplebar";
-
-  onMount(() => {
-    bar = new SimpleBarJS(scrollElem, options);
-  });
+  const mountHandle = () => {
+    if (scrollElem) {
+      bar = new SimpleBarJS(scrollElem, options);
+    } else {
+      setTimeout(mountHandle, 100)
+    }
+  }
+  onMount(mountHandle);
   export let options = {},
     bar;
   let scrollElem;
