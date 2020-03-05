@@ -217,14 +217,13 @@
   import SimpleBarJS from "simplebar";
   const mountHandle = () => {
     if (scrollElem) {
-      bar = new SimpleBarJS(scrollElem, options);
+      init && init(new SimpleBarJS(scrollElem, options));
     } else {
       setTimeout(mountHandle, 100)
     }
   }
   onMount(mountHandle);
-  export let options = {},
-    bar;
+  export let options = {}, init
   let scrollElem;
 </script>
 

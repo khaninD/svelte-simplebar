@@ -6256,14 +6256,14 @@
     function instance($$self, $$props, $$invalidate) {
     	const mountHandle = () => {
     		if (scrollElem) {
-    			$$invalidate(1, bar = new SimpleBar(scrollElem, options));
+    			init && init(new SimpleBar(scrollElem, options));
     		} else {
     			setTimeout(mountHandle, 100);
     		}
     	};
 
     	onMount(mountHandle);
-    	let { options = {} } = $$props, { bar } = $$props;
+    	let { options = {} } = $$props, { init } = $$props;
     	let scrollElem;
     	let { $$slots = {}, $$scope } = $$props;
 
@@ -6274,19 +6274,19 @@
     	}
 
     	$$self.$set = $$props => {
-    		if ("options" in $$props) $$invalidate(2, options = $$props.options);
-    		if ("bar" in $$props) $$invalidate(1, bar = $$props.bar);
+    		if ("options" in $$props) $$invalidate(1, options = $$props.options);
+    		if ("init" in $$props) $$invalidate(2, init = $$props.init);
     		if ("$$scope" in $$props) $$invalidate(4, $$scope = $$props.$$scope);
     	};
 
-    	return [scrollElem, bar, options, mountHandle, $$scope, $$slots, div12_binding];
+    	return [scrollElem, options, init, mountHandle, $$scope, $$slots, div12_binding];
     }
 
     class SvelteSimplebar extends SvelteComponent {
     	constructor(options) {
     		super();
     		if (!document.getElementById("svelte-13ahso4-style")) add_css();
-    		init(this, options, instance, create_fragment, safe_not_equal, { options: 2, bar: 1 });
+    		init(this, options, instance, create_fragment, safe_not_equal, { options: 1, init: 2 });
     	}
     }
 
@@ -6301,14 +6301,14 @@
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[1] = list[i].text;
+    	child_ctx[3] = list[i].text;
     	return child_ctx;
     }
 
-    // (18:6) {#each data as { text }}
+    // (21:6) {#each data as { text }}
     function create_each_block(ctx) {
     	let li;
-    	let t_value = /*text*/ ctx[1] + "";
+    	let t_value = /*text*/ ctx[3] + "";
     	let t;
 
     	return {
@@ -6338,7 +6338,7 @@
     	};
     }
 
-    // (16:2) <SvelteSimplebar>
+    // (19:2) <SvelteSimplebar init={initBar}>
     function create_default_slot(ctx) {
     	let ul;
     	let each_value = /*data*/ ctx[0];
@@ -6416,6 +6416,7 @@
 
     	const sveltesimplebar = new SvelteSimplebar({
     			props: {
+    				init: /*initBar*/ ctx[1],
     				$$slots: { default: [create_default_slot] },
     				$$scope: { ctx }
     			}
@@ -6445,7 +6446,7 @@
     		p(ctx, [dirty]) {
     			const sveltesimplebar_changes = {};
 
-    			if (dirty & /*$$scope*/ 16) {
+    			if (dirty & /*$$scope*/ 64) {
     				sveltesimplebar_changes.$$scope = { dirty, ctx };
     			}
 
@@ -6469,7 +6470,8 @@
 
     function instance$1($$self) {
     	const data = Array.from({ length: 50 }).map((item, index) => ({ text: `Line number: ${index + 1}` }));
-    	return [data];
+    	const initBar = bar => console.log("svelteBar", bar);
+    	return [data, initBar];
     }
 
     class App extends SvelteComponent {
